@@ -63,8 +63,7 @@ if page == "Home":
     st.title(f"New England Airports Data")
 
     # [ST4]
-    image_path = "C:/Users/allyb/OneDrive - Bentley University/CS 230/final project/Logan-Takeoff-GettyImages-143183998-8e734debd82248b6b59ef908d9f1bb44.jpg"
-    img = Image.open(image_path)
+    img = Image.open("Logan-Takeoff-GettyImages-143183998-8e734debd82248b6b59ef908d9f1bb44.jpg")
     st.image(img, width=800)
 
     """
